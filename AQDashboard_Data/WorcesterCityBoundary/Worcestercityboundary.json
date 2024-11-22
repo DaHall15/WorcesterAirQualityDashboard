@@ -1,0 +1,162 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "TOWN" : "TOWN",
+    "TOWN_ID" : "TOWN_ID",
+    "TOWNS_ID" : "TOWNS_ID",
+    "POP1980" : "POP1980",
+    "POP1990" : "POP1990",
+    "POP2000" : "POP2000",
+    "POPCH80_90" : "POPCH80_90",
+    "POPCH90_00" : "POPCH90_00",
+    "TYPE" : "TYPE",
+    "ISLAND" : "ISLAND",
+    "COASTAL_PO" : "COASTAL_PO",
+    "FOURCOLOR" : "FOURCOLOR",
+    "FIPS_STCO" : "FIPS_STCO",
+    "CCD_MCD" : "CCD_MCD",
+    "FIPS_PLACE" : "FIPS_PLACE",
+    "FIPS_MCD" : "FIPS_MCD",
+    "FIPS_COUNT" : "FIPS_COUNT",
+    "ACRES" : "ACRES",
+    "SQUARE_MIL" : "SQUARE_MIL",
+    "GlobalID" : "GlobalID",
+    "OBJECTID" : "OBJECTID",
+    "Shape__Are" : "Shape__Are",
+    "Shape__Len" : "Shape__Len"
+  },
+  "geometryType" : "esriGeometryPolygon",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",656166.667],PARAMETER[\"False_Northing\",2460625.0],PARAMETER[\"Central_Meridian\",-71.5],PARAMETER[\"Standard_Parallel_1\",41.7166666666667],PARAMETER[\"Standard_Parallel_2\",42.6833333333333],PARAMETER[\"Latitude_Of_Origin\",41.0],UNIT[\"US survey foot\",0.3048006096012192]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "TOWN",
+      "type" : "esriFieldTypeString",
+      "alias" : "TOWN",
+      "length" : 9
+    },
+    {
+      "name" : "TOWN_ID",
+      "type" : "esriFieldTypeSmallInteger",
+      "alias" : "TOWN_ID"
+    },
+    {
+      "name" : "TOWNS_ID",
+      "type" : "esriFieldTypeSmallInteger",
+      "alias" : "TOWNS_ID"
+    },
+    {
+      "name" : "POP1980",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "POP1980"
+    },
+    {
+      "name" : "POP1990",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "POP1990"
+    },
+    {
+      "name" : "POP2000",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "POP2000"
+    },
+    {
+      "name" : "POPCH80_90",
+      "type" : "esriFieldTypeSmallInteger",
+      "alias" : "POPCH80_90"
+    },
+    {
+      "name" : "POPCH90_00",
+      "type" : "esriFieldTypeSmallInteger",
+      "alias" : "POPCH90_00"
+    },
+    {
+      "name" : "TYPE",
+      "type" : "esriFieldTypeString",
+      "alias" : "TYPE",
+      "length" : 1
+    },
+    {
+      "name" : "ISLAND",
+      "type" : "esriFieldTypeSmallInteger",
+      "alias" : "ISLAND"
+    },
+    {
+      "name" : "COASTAL_PO",
+      "type" : "esriFieldTypeString",
+      "alias" : "COASTAL_PO",
+      "length" : 2
+    },
+    {
+      "name" : "FOURCOLOR",
+      "type" : "esriFieldTypeSmallInteger",
+      "alias" : "FOURCOLOR"
+    },
+    {
+      "name" : "FIPS_STCO",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "FIPS_STCO"
+    },
+    {
+      "name" : "CCD_MCD",
+      "type" : "esriFieldTypeString",
+      "alias" : "CCD_MCD",
+      "length" : 3
+    },
+    {
+      "name" : "FIPS_PLACE",
+      "type" : "esriFieldTypeString",
+      "alias" : "FIPS_PLACE",
+      "length" : 5
+    },
+    {
+      "name" : "FIPS_MCD",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "FIPS_MCD"
+    },
+    {
+      "name" : "FIPS_COUNT",
+      "type" : "esriFieldTypeSmallInteger",
+      "alias" : "FIPS_COUNT"
+    },
+    {
+      "name" : "ACRES",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "ACRES"
+    },
+    {
+      "name" : "SQUARE_MIL",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "SQUARE_MIL"
+    },
+    {
+      "name" : "GlobalID",
+      "type" : "esriFieldTypeString",
+      "alias" : "GlobalID",
+      "length" : 36
+    },
+    {
+      "name" : "OBJECTID",
+      "type" : "esriFieldTypeSmallInteger",
+      "alias" : "OBJECTID"
+    },
+    {
+      "name" : "Shape__Are",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Shape__Are"
+    },
+    {
+      "name" : "Shape__Len",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Shape__Len"
+    }
+  ],
+  "features" : [{"attributes":{"FID":0,"TOWN":"WORCESTER","TOWN_ID":348,"TOWNS_ID":261,"POP1980":159843,"POP1990":169759,"POP2000":172648,"POPCH80_90":9916,"POPCH90_00":2889,"TYPE":"C","ISLAND":0,"COASTAL_PO":"NO","FOURCOLOR":3,"FIPS_STCO":25027,"CCD_MCD":"030","FIPS_PLACE":"82000","FIPS_MCD":25027030,"FIPS_COUNT":27,"ACRES":24602.4860000000008,"SQUARE_MIL":384.411000000000001,"GlobalID":"642fd55c-8273-4e35-993c-d5d0e1eaf706","OBJECTID":1,"Shape__Are":1071679895.0501709,"Shape__Len":139826.751833247748},"geometry":{"rings":[[[583605.51283739496,2938565.2523920499],[586219.33306905604,2933076.8181589702],[588139.525750965,2917864.9811286498],[589536.02164563502,2913977.8271575598],[593552.21177597297,2913036.3789092302],[592955.42556797003,2911831.3334190501],[575667.34170588898,2901705.0538028898],[573867.897142053,2905678.67315222],[573081.75862246798,2906764.6197992298],[572202.19870179903,2909451.3729558899],[559575.55302338302,2907829.1091400501],[552241.11559255398,2927749.9459387199],[554591.87631097401,2929667.8928902298],[574495.86340580904,2945915.39090697],[574495.85684414196,2945915.4076392199],[578874.14664396597,2949486.80207123],[580528.92154963303,2945026.29819697],[583605.51283739496,2938565.2523920499]]]}}]
+}
